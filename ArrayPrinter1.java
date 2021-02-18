@@ -1,6 +1,7 @@
 import java.util.*;
 
 /*
+ * Program1
  * Kushal Galrani 9H
  * Date: 16/02/21
  * A program to enter 10 numbers into an array and print them out

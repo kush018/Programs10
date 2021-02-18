@@ -1,6 +1,7 @@
 import java.util.*;
 
 /*
+ * Program3
  * Kushal Galrani 9H
  * Date: 16/02/21
  * A program that inputs 10 numbers, stores them in an array and

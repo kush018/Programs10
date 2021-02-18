@@ -1,6 +1,7 @@
 import java.util.*;
 
 /*
+ * Program2
  * Kushal Galrani 9H
  * Date: 16/02/21
  * A program that inputs 10 numbers and prints them in reverse order
