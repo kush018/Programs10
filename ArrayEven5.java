@@ -2,7 +2,7 @@ import java.util.*;
 
 /*
  * Program5
- * Kushal Galrani 9H
+ * Kushal Galrani 10
  * Date: 18/02/21
  * A program to accept 20 numbers and print only the even 
  * numbers from the array along with their indexs

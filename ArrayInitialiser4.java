@@ -1,6 +1,6 @@
 /*
  * Program4
- * Kushal Galrani 9H
+ * Kushal Galrani 10
  * Date: 18/02/21
  * A program to initialise an integer array of five elements
  * and print their sum and average

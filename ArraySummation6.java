@@ -2,7 +2,7 @@ import java.util.*;
 
 /*
  * Program6
- * Kushal Galrani 9H
+ * Kushal Galrani 10
  * Date: 18/02/21
  * A program ro accept values into two arrays of 10 cells each. It
  * stores the sum of corresponding cells into a third array
