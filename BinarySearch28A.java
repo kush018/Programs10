@@ -8,7 +8,7 @@ import java.util.*;
  * display an error message if not found
  */
 
-public class BinarySearch28 {
+public class BinarySearch28A {
     public static void main() { 
         Scanner sc = new Scanner(System.in);
         int a[] = {1, 2, 3, 4, 5, 69, 420, 421, 69420, 69421};

@@ -27,6 +27,10 @@ public class AvgCalculator26 {
     
     public static void main() {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter name of student: ");
+        String name = sc.nextLine();
+        System.out.print("Enter his or her roll number: ");
+        int rlno = sc.nextInt();
         System.out.print("Select a category:\n1) Primary School\n2) Middle School\n3) High School\nEnter your choice (1-3): ");
         int choice = sc.nextInt();
         double english, hindi, math, sst, science;
@@ -63,6 +67,7 @@ public class AvgCalculator26 {
         if (validChoice) {
             System.out.print("Enter total marks for each subject: ");
             double total = sc.nextDouble();
+            System.out.println("Results for " + name + " of roll number " + rlno + ":");
             System.out.println("Average: " + average);
             System.out.println("Percentage: " + ((average/total) * 100.0));
         } else {

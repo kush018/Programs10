@@ -7,7 +7,7 @@ import java.util.*;
  * and print out the position the String occupies in the array (using binary search)
  */
 
-public class BinarySearch29 {
+public class BinarySearch28B {
     public static void main() {
         Scanner sc = new Scanner(System.in);
         String a[] = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
