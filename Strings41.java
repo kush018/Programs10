@@ -16,7 +16,7 @@ public class Strings41 {
         int spc = 0;
         
         for (int i = 0; i < s.length(); i++) {
-            spc++;
+            if (s.charAt(i) == ' ') spc++;
         }
         
         System.out.println("The number of spaces: " + spc);

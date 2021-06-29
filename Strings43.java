@@ -22,10 +22,10 @@ public class Strings43 {
                 case 'u': u++;
             }
         }
-        System.out.println("Occurences of a" + a);
-        System.out.println("Occurences of e" + e);
-        System.out.println("Occurences of i" + i);
-        System.out.println("Occurences of o" + o);
-        System.out.println("Occurences of u" + u);
+        System.out.println("Occurences of a: " + a);
+        System.out.println("Occurences of e: " + e);
+        System.out.println("Occurences of i: " + i);
+        System.out.println("Occurences of o: " + o);
+        System.out.println("Occurences of u: " + u);
     }
 }

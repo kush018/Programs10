@@ -1,33 +1,23 @@
+import java.util.*;
 
-/**
- * Write a description of class Strings42 here.
- *
- * @author (your name)
- * @version (a version number or a date)
+/*
+ * Kushal Galrani 10H
+ * Date: 28/6/21
+ * Program to input a String and print the total number of vowels in it
  */
-public class Strings42
-{
-    // instance variables - replace the example below with your own
-    private int x;
 
-    /**
-     * Constructor for objects of class Strings42
-     */
-    public Strings42()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+public class Strings42 {
+    public static void main() {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter a String: ");
+        String s = sc.nextLine();
+        
+        int c = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') c++;
+        }
+        System.out.println("Number of vowels: " + c);
     }
 }
