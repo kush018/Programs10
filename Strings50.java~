@@ -1,0 +1,43 @@
+import java.io.*;
+
+/*
+ * Kushal Galrani 10H
+ * Date: 2/7/21
+ * Program to input a String and fine the frequency of a word present in the
+ * String
+ */
+
+public class Strings50 {
+	public static void main() throws IOException {
+		InputStreamReader isr = new InputStreamReader(System.in);
+		BufferedReader br = new BufferedReader(isr);
+
+		System.out.print("Enter a String: ");
+		String s = br.readLine();
+
+		System.out.print("Enter word to be searched: ");
+		String word = br.readLine();
+
+		int n = 0;
+
+		int beginIndex = 0;
+		boolean inAWord = false;
+		for (int i = 0; i < s.length(); i++) {
+			if (s.charAt(i) == ' ') {
+				if (inAWord) {
+					int endIndex = i;
+					String currentWord = s.substring(beginIndex, endIndex);
+					if (currentWord.equals(word)) n++;
+					inAWord = false;
+				}
+			} else {
+				if (!inAWord) {
+					inAWord = true;
+					beginIndex = i;
+				}
+			}
+		}
+
+		System.out.println("Occurences of word in String: " + n);
+	}
+}

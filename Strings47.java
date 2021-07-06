@@ -1,0 +1,25 @@
+import java.util.*;
+
+/*
+ * Kushal Galrani 10H
+ * Date: 29/6/21
+ * Program to input a name and print only the initials
+ */
+
+public class Strings47 {
+	public static void main() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter name: ");	
+		String name = sc.nextLine();
+		name = name.trim();
+		boolean isNewWord = true;
+		for (int i = 0; i < name.length(); i++) {
+			char ch = name.charAt(i);
+			if (ch == ' ') isNewWord = true;
+			else if (isNewWord) {
+				System.out.print(ch + " ");
+				isNewWord = false;
+			}
+		}
+	}
+}
